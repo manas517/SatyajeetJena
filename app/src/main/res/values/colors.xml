@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2e45f7</color>
+    <color name="colorPrimaryDark">#3e43ce</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="white">#fcd731</color>
+    <color name="green">#7ec140</color>
+    <color name="app_clr_theme">#1B5279</color>
+    <color name="app_clr_theme_light">#DED4CA</color>
+    <color name="grey">#9b9c9b</color>
+    <color name="light_app_clr_theme">#555655</color>
+    <color name="transparent">#0000ffff</color>
+    <color name="blue">#c61c2a8f</color>
+    <color name="successful_green">#009470</color>
+
+</resources>

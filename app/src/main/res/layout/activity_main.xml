@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/satyajeet_splash"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:weightSum="3"
+    tools:context="com.bestnbest.satyajeetjena.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".3"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/tv_splash_satayajeet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="false"
+        android:fontFamily="@font/idroid_bold"
+        android:text="Satyajeet Jena"
+        android:textColor="#e9dede"
+        android:gravity="center"
+        android:textSize="@dimen/splash_screen_title" />
+    <TextView
+        android:id="@+id/tv_splash_playback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lato_bold_font"
+        android:textColor="#b9b6b6"
+        android:text="PLAYBACK SINGER"
+        android:gravity="right"
+        android:layout_marginRight="45sp"/>
+
+
+</LinearLayout>
